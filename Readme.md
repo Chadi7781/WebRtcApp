@@ -1,5 +1,4 @@
 Simple WebRTC Messenger
+building a WebRTC video chat app using SimpleWebRTC.
 
-A tutorial on building a WebRTC video chat app using SimpleWebRTC.
-
- ********DeltaSoft****
+ ******DEltaSoft******
