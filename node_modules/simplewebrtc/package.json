@@ -1,0 +1,80 @@
+{
+  "_from": "simplewebrtc",
+  "_id": "simplewebrtc@3.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-K3RTFC2SQCDK+gQeB2EZNglM1eYz278T9e5jrNcslPfO0TiGzahCE2Iy5pydWGiLGsUYOuADYcmAtW4fFZszvA==",
+  "_location": "/simplewebrtc",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "simplewebrtc",
+    "name": "simplewebrtc",
+    "escapedName": "simplewebrtc",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/simplewebrtc/-/simplewebrtc-3.0.2.tgz",
+  "_shasum": "c5d9e918b347d9eed331003c7170c9ca7e08b8ef",
+  "_spec": "simplewebrtc",
+  "_where": "C:\\Users\\Chadi\\WebstormProjects\\WebRtcApp",
+  "bugs": {
+    "url": "https://github.com/andyet/SimpleWebRTC/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "attachmediastream": "^2.0.0",
+    "filetransfer": "^2.0.4",
+    "localmedia": "^4.0.0",
+    "mockconsole": "0.0.1",
+    "rtcpeerconnection": "^8.0.0",
+    "socket.io-client": "^1.7.4",
+    "webrtcsupport": "^2.2.0",
+    "wildemitter": "^1.2.0"
+  },
+  "deprecated": false,
+  "description": "World's easiest webrtc",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "precommit-hook": "^3.0.0",
+    "request": "^2.72.0",
+    "stupid-server": "^0.2.2",
+    "tape": "^4.0.0",
+    "testling": "^1.7.1",
+    "travis-multirunner": "^4.0.0",
+    "uglify-js": "^2.7.3",
+    "webrtc-adapter": "^6.0.0",
+    "webrtc-testbed": "git+https://github.com/fippo/testbed.git"
+  },
+  "false": {},
+  "homepage": "https://github.com/andyet/SimpleWebRTC#readme",
+  "license": "MIT",
+  "main": "./src/simplewebrtc.js",
+  "name": "simplewebrtc",
+  "peerDependencies": {
+    "webrtc-adapter": "^6.0.0"
+  },
+  "pre-commit": [
+    "lint",
+    "validate"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyet/SimpleWebRTC.git"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "lint": "jshint src",
+    "test": "node test/selenium/index.js",
+    "test-page": "echo \"open https://0.0.0.0:8443/test/\" && stupid-server -s -h 0.0.0.0",
+    "test-travis": "test/run-selenium",
+    "updateLatest": "./scripts/updateLatest.sh",
+    "validate": "npm ls"
+  },
+  "version": "3.0.2"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "webrtcapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.16.4",
+    "file-loader": "^4.0.0",
+    "handlebars": "^4.1.2",
+    "http-errors": "~1.6.3",
+    "jquery": "^3.4.1",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11",
+    "semantic-ui-css": "^2.4.1",
+    "simplewebrtc": "^3.0.2",
+    "url-loader": "^2.0.1"
+  },
+  "description": "Simple WebRTC Messenger",
+  "main": "app.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
